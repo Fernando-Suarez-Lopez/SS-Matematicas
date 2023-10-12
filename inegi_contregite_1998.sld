@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld:UserStyle xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
+  <sld:Name>AtlasStyler 1.9</sld:Name>
+  <sld:Title/>
+  <sld:FeatureTypeStyle>
+    <sld:Name>UNIQUE_VALUE_POLYGON</sld:Name>
+    <sld:Title>UniqueValuesPolygonRuleList</sld:Title>
+    <sld:FeatureTypeName>Feature</sld:FeatureTypeName>
+    <sld:Rule>
+      <sld:Title>Cálido</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Cálido</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#ff9c9c</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#e60000</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+    <sld:Rule>
+      <sld:Title>Semicálido</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Semicálido</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#ffd37f</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#ffaa00</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+    <sld:Rule>
+      <sld:Title>Templado</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Templado</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#d3ffbe</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#abcd66</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+    <sld:Rule>
+      <sld:Title>Semifrío</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Semifrío</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#89cd66</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#70a800</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+    <sld:Rule>
+      <sld:Title>Frío</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Frío</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#73b2ff</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#0084a8</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+    <sld:Rule>
+      <sld:Title>Muy frío</sld:Title>
+      <ogc:Filter>
+        <ogc:And>
+          <ogc:PropertyIsEqualTo>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+            <ogc:Literal>ALL_LABEL_CLASSES_ENABLED</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:And>
+            <ogc:Not>
+              <ogc:Or>
+                <ogc:PropertyIsNull>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                </ogc:PropertyIsNull>
+                <ogc:PropertyIsEqualTo>
+                  <ogc:PropertyName>reg_temp</ogc:PropertyName>
+                  <ogc:Literal></ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+              </ogc:Or>
+            </ogc:Not>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>reg_temp</ogc:PropertyName>
+              <ogc:Literal>Muy frío</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:And>
+        </ogc:And>
+      </ogc:Filter>
+      <sld:MaxScaleDenominator>1.7976931348623157E308</sld:MaxScaleDenominator>
+      <sld:PolygonSymbolizer>
+        <sld:Geometry>
+          <ogc:PropertyName>the_geom</ogc:PropertyName>
+        </sld:Geometry>
+        <sld:Fill>
+          <sld:CssParameter name="fill">#0070ff</sld:CssParameter>
+        </sld:Fill>
+        <sld:Stroke>
+          <sld:CssParameter name="stroke">#004c73</sld:CssParameter>
+          <sld:CssParameter name="stroke-width">0.5</sld:CssParameter>
+        </sld:Stroke>
+      </sld:PolygonSymbolizer>
+    </sld:Rule>
+  </sld:FeatureTypeStyle>
+</sld:UserStyle>
